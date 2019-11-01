@@ -1,3 +1,4 @@
+<html>
 var user = prompt("pick a # from 0-10:   ");
 var randm = Math.floor(Math.random() * 11);
 console.log(randm)
@@ -7,3 +8,4 @@ if (user == randm) {
 else {
     console.log("you got it wrong!!!!")
 }
+</html>
