@@ -1,13 +1,14 @@
 <html>
-<script>
-var user = prompt("pick a # from 0-10:   ");
+<body>
+<button onclick = {
+var user = window.prompt("pick a # from 0-10:   ");
 var randm = Math.floor(Math.random() * 11);
-console.log(randm)
+window.alert(
 if (user == randm) {
-    console.log("you got it right")
+    return("you got it right")
 }
 else {
-    console.log("you got it wrong!!!!")
-}
-</script>
+    return("you got it wrong!!!!")
+})
+
 </html>
