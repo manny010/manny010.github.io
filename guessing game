@@ -1,6 +1,6 @@
 <html>
 <body>
-<button onclick = {
+<button onclick = (
 var user = window.prompt("pick a # from 0-10:   ");
 var randm = Math.floor(Math.random() * 11);
 window.alert(
@@ -10,5 +10,8 @@ if (user == randm) {
 else {
     return("you got it wrong!!!!")
 })
+>code</button>
+
+</body>
 
 </html>
