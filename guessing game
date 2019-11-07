@@ -1,17 +1,22 @@
+<!DOCTYPE html>
 <html>
-<body>
-<button onclick = (
-var user = window.prompt("pick a # from 0-10:   ");
-var randm = Math.floor(Math.random() * 11);
-window.alert(
-if (user == randm) {
-    alert("you got it right")
+<img src="https://www.bedfordny.gov/wp-content/uploads/2018/07/sunshine-sun-clip-art-with-transparent-background-free-free-clipart-sun-2361_2358-2-300x300.png">
+<body bgcolor= "#0000FF">
+<p> ....</p>
+<button onclick="stuff()">Chlick</button>
+<script>
+function stuff() {
+   var user = prompt("Choose a # from 0-10");
+   var randm = Math.floor(Math.random() * 11);
+   if (user == randm) {
+       alert("you got it right");
+   }
+   else {
+       alert("you got it wrong!!!! haha");
+   }
 }
-else {
-    alert("you got it wrong!!!!")
-})
->code</button>
-
+</script>
 </body>
-
+<img src="https://purepng.com/public/uploads/large/purepng.com-grassgrasstype-of-plantgrasslandgrass-lawn-1411527053092p55ke.png">
 </html>
+
