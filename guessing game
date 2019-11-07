@@ -5,10 +5,10 @@ var user = window.prompt("pick a # from 0-10:   ");
 var randm = Math.floor(Math.random() * 11);
 window.alert(
 if (user == randm) {
-    return("you got it right")
+    alert("you got it right")
 }
 else {
-    return("you got it wrong!!!!")
+    alert("you got it wrong!!!!")
 })
 >code</button>
 
